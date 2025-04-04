@@ -5,5 +5,3 @@ const siteProps = {
   Job: Software Developer
   // Add any other properties you need
 };
-
-
