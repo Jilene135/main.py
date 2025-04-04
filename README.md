@@ -7,7 +7,7 @@ app = FastAPI()
 # Welcome note with a customized message
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the FastAPI application, Jilene135!"}
+    return {"message": "Welcome to the FastAPI application, Jilene!"}
 
 # Data model for the request body
 class TextData(BaseModel):
